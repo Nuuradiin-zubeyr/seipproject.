@@ -44,6 +44,26 @@
 
   renderProjectCards();
 
+  function initHomeBannerSlider() {
+    var slides = document.querySelectorAll(".hero-banner .hero-banner-img--slide");
+    if (!slides || slides.length < 2) return;
+
+    var current = 0;
+
+    function setSlide(next) {
+      slides[current].classList.remove("is-active");
+      slides[next].classList.add("is-active");
+      current = next;
+    }
+
+    window.setInterval(function () {
+      var next = (current + 1) % slides.length;
+      setSlide(next);
+    }, 3000);
+  }
+
+  initHomeBannerSlider();
+
   var EVENT_ITEMS = [
     {
       variant: "orange",

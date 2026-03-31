@@ -427,6 +427,7 @@ img {
   line-height: 0;
   height: 100vh;
   height: 100dvh;
+  position: relative;
 }
 
 .hero-banner-img {
@@ -436,6 +437,17 @@ img {
   height: 100%;
   object-fit: cover;
   object-position: center center;
+}
+
+.hero-banner-img--slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.hero-banner-img--slide.is-active {
+  opacity: 1;
 }
 
 /* Project component cards (pulled up over banner) */
