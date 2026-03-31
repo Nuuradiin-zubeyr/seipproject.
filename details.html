@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SEIP Project — News details" />
+  <title>News details | SEIP Project</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-topbar" aria-label="Social links">
+      <div class="container header-topbar-inner">
+        <div class="header-social">
+          <a href="#" class="header-social-link" aria-label="Twitter">
+            <svg class="header-social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+          <a href="#" class="header-social-link" aria-label="Facebook">
+            <svg class="header-social-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-main">
+      <div class="container header-main-inner">
+        <a href="index.html" class="header-brand">
+          <img src="images/seip-logo.png" alt="SEIP Project — Skills for Employability, Inclusion &amp; Productivity" width="320" height="72" />
+        </a>
+
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="project-overview.html" class="nav-link">Project Overview</a>
+            </li>
+            <li class="nav-item has-dropdown">
+              <button type="button" class="nav-link nav-dropdown-btn" aria-expanded="false" aria-haspopup="true" aria-controls="dropdown-media">
+                Media &amp; Publications
+                <span class="nav-caret" aria-hidden="true"></span>
+              </button>
+              <ul class="nav-dropdown nav-dropdown--media" id="dropdown-media" role="menu">
+                <li role="none"><a href="work-with-us.html" role="menuitem">Work With Us</a></li>
+                <li role="none"><a href="project-performance-reports.html" role="menuitem">Project Performance Reports</a></li>
+                <li role="none"><a href="project-developed-documents.html" role="menuitem">Project Developed Documents</a></li>
+              </ul>
+            </li>
+            <li class="nav-item has-dropdown">
+              <button type="button" class="nav-link nav-dropdown-btn" aria-expanded="false" aria-haspopup="true" aria-controls="dropdown-gallery">
+                Gallery
+                <span class="nav-caret" aria-hidden="true"></span>
+              </button>
+              <ul class="nav-dropdown nav-dropdown--gallery" id="dropdown-gallery" role="menu">
+                <li role="none"><a href="trainees.html" role="menuitem">Trainees</a></li>
+                <li role="none"><a href="ivtc-centre.html" role="menuitem">IVTC Centre</a></li>
+                <li role="none"><a href="engagements.html" role="menuitem">Engagements</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main detail-news-page">
+    <div class="detail-article-layout">
+      <p class="detail-back-wrap">
+        <a href="index.html#latest-news" class="detail-back-link">
+          <span class="detail-back-icon" aria-hidden="true">←</span>
+          Back to Latest News
+        </a>
+      </p>
+      <article class="detail-article-paper">
+        <header class="detail-article-header">
+          <h1 id="news-detail-title" class="detail-news-h1">Loading…</h1>
+        </header>
+        <div id="news-detail-root" class="detail-article-content"></div>
+      </article>
+
+      <section class="detail-reply-section" id="leave-reply" aria-labelledby="reply-heading">
+        <h2 id="reply-heading" class="detail-reply-title">Leave a Reply</h2>
+        <p class="detail-reply-note">
+          Your email address will not be published. Required fields are marked
+          <span class="detail-reply-asterisk" aria-hidden="true">*</span>
+        </p>
+        <form class="detail-reply-form" action="#" method="post">
+          <div class="detail-reply-field">
+            <label for="reply-comment">
+              Comment <span class="detail-reply-required" aria-hidden="true">*</span>
+            </label>
+            <textarea
+              id="reply-comment"
+              name="comment"
+              rows="7"
+              required
+              placeholder="Write your comment…"
+            ></textarea>
+          </div>
+          <div class="detail-reply-field">
+            <label for="reply-name">
+              Name <span class="detail-reply-required" aria-hidden="true">*</span>
+            </label>
+            <input type="text" id="reply-name" name="name" required autocomplete="name" />
+          </div>
+          <div class="detail-reply-field">
+            <label for="reply-email">
+              Email <span class="detail-reply-required" aria-hidden="true">*</span>
+            </label>
+            <input type="email" id="reply-email" name="email" required autocomplete="email" />
+          </div>
+          <div class="detail-reply-field">
+            <label for="reply-website">Website</label>
+            <input type="url" id="reply-website" name="website" autocomplete="url" placeholder="https://" />
+          </div>
+          <div class="detail-reply-field detail-reply-field--checkbox">
+            <label class="detail-reply-checkbox-label">
+              <input type="checkbox" id="reply-save" name="save_info" value="1" />
+              <span>Save my name, email, and website in this browser for the next time I comment.</span>
+            </label>
+          </div>
+          <button type="submit" class="detail-reply-submit">Post comment</button>
+          <p class="detail-reply-status" id="reply-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container site-footer-inner">
+      <div class="site-footer-block">
+        <h2 class="site-footer-title">Main Office</h2>
+        <p class="site-footer-line site-footer-line--lg">Jubba , Shangani District</p>
+        <p class="site-footer-line site-footer-line--lg">Mogadishu Somalia</p>
+        <p class="site-footer-hours">8:00 a.m. – 4:00 p.m.</p>
+      </div>
+      <div class="site-footer-bottom">
+        <p class="site-footer-copy">
+          SEIP Project © <span id="footer-year">2025</span> Design &amp; Developed by
+          <a href="#" class="site-footer-credit">Themagnifico</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/news-articles.js"></script>
+  <script src="js/news-detail.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
