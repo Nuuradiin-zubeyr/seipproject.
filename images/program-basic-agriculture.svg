@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Basic agriculture illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f1fbf6"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3bb273"/>
+      <stop offset="1" stop-color="#1f8a55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+
+  <!-- Soil rows -->
+  <g opacity="0.95">
+    <path d="M120 720 C280 650, 480 640, 650 670 C820 700, 980 700, 1080 660 L1080 820 L120 820 Z" fill="#e7edf6"/>
+    <path d="M120 720 C280 650, 480 640, 650 670 C820 700, 980 700, 1080 660" fill="none" stroke="#d4deee" stroke-width="10" stroke-linecap="round"/>
+    <path d="M140 770 C310 710, 500 710, 650 735 C800 760, 970 760, 1060 730" fill="none" stroke="#d4deee" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- Seedlings -->
+  <g>
+    <g transform="translate(250,610)">
+      <path d="M40 110 C40 70, 30 55, 15 40 C0 25, -5 5, 20 8 C45 12, 55 32, 62 52 C68 32, 78 12, 103 8 C128 5, 123 25, 108 40 C93 55, 84 70, 84 110" fill="url(#green)"/>
+      <rect x="56" y="100" width="12" height="50" rx="6" fill="#1f8a55"/>
+    </g>
+    <g transform="translate(540,590) scale(0.9)">
+      <path d="M40 110 C40 70, 30 55, 15 40 C0 25, -5 5, 20 8 C45 12, 55 32, 62 52 C68 32, 78 12, 103 8 C128 5, 123 25, 108 40 C93 55, 84 70, 84 110" fill="url(#green)"/>
+      <rect x="56" y="100" width="12" height="50" rx="6" fill="#1f8a55"/>
+    </g>
+    <g transform="translate(820,605) scale(0.95)">
+      <path d="M40 110 C40 70, 30 55, 15 40 C0 25, -5 5, 20 8 C45 12, 55 32, 62 52 C68 32, 78 12, 103 8 C128 5, 123 25, 108 40 C93 55, 84 70, 84 110" fill="url(#green)"/>
+      <rect x="56" y="100" width="12" height="50" rx="6" fill="#1f8a55"/>
+    </g>
+  </g>
+
+  <!-- Watering can -->
+  <g transform="translate(260,260)">
+    <circle cx="180" cy="170" r="70" fill="rgba(78,138,193,0.16)"/>
+    <path d="M230 290 h120 a35 35 0 0 1 35 35 v60 h-220 v-80 a15 15 0 0 1 15-15 h50" fill="#ffffff" stroke="#dbe6f4" stroke-width="8" />
+    <path d="M160 330 c-40-70 20-135 90-110" fill="none" stroke="url(#blue)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M385 345 h70 l25 20 h-95z" fill="#cfd8e6"/>
+    <g fill="#4e8ac1" opacity="0.85">
+      <circle cx="470" cy="385" r="8"/>
+      <circle cx="448" cy="412" r="8"/>
+      <circle cx="472" cy="430" r="8"/>
+    </g>
+  </g>
+
+  <!-- Accent -->
+  <rect x="120" y="120" width="140" height="12" rx="6" fill="#f19e38" opacity="0.75"/>
+</svg>
+

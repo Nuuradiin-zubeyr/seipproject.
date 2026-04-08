@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Bricklyering illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+
+  <!-- Wall -->
+  <g transform="translate(610,260)">
+    <rect x="0" y="0" width="450" height="430" rx="26" fill="#ffffff" stroke="#dbe6f4" stroke-width="8"/>
+    <g fill="#f1f5fb">
+      <rect x="30" y="40" width="120" height="55" rx="10"/>
+      <rect x="165" y="40" width="120" height="55" rx="10"/>
+      <rect x="300" y="40" width="120" height="55" rx="10"/>
+      <rect x="95" y="110" width="120" height="55" rx="10"/>
+      <rect x="230" y="110" width="120" height="55" rx="10"/>
+      <rect x="30" y="180" width="120" height="55" rx="10"/>
+      <rect x="165" y="180" width="120" height="55" rx="10"/>
+      <rect x="300" y="180" width="120" height="55" rx="10"/>
+      <rect x="95" y="250" width="120" height="55" rx="10"/>
+      <rect x="230" y="250" width="120" height="55" rx="10"/>
+      <rect x="30" y="320" width="120" height="55" rx="10"/>
+      <rect x="165" y="320" width="120" height="55" rx="10"/>
+      <rect x="300" y="320" width="120" height="55" rx="10"/>
+    </g>
+  </g>
+
+  <!-- Trainee -->
+  <circle cx="300" cy="260" r="52" fill="url(#blue)"/>
+  <rect x="245" y="310" width="150" height="260" rx="46" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <path d="M230 420 C300 360, 360 360, 430 420" fill="none" stroke="#3b6fb6" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Helmet -->
+  <path d="M248 252 C260 210, 340 210, 352 252" fill="#f19e38" opacity="0.95"/>
+  <rect x="246" y="250" width="110" height="18" rx="9" fill="#f19e38"/>
+
+  <!-- Trowel -->
+  <g transform="translate(420,500)">
+    <rect x="0" y="0" width="28" height="120" rx="12" fill="#cfd8e6"/>
+    <path d="M14 120 L120 160 L140 140 L38 105 Z" fill="#4e8ac1" opacity="0.9"/>
+  </g>
+</svg>
+

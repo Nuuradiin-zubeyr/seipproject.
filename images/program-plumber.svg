@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Plumber illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+
+  <!-- Pipes -->
+  <g transform="translate(600,220)" fill="none" stroke="#cfe0f3" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 40 v220 h260"/>
+    <path d="M60 260 h-160 v200"/>
+    <path d="M320 260 v220"/>
+  </g>
+  <g transform="translate(600,220)" fill="none" stroke="#4e8ac1" stroke-width="10" opacity="0.55" stroke-linecap="round">
+    <circle cx="60" cy="260" r="28" fill="#ffffff" stroke="#4e8ac1"/>
+    <circle cx="320" cy="260" r="28" fill="#ffffff" stroke="#4e8ac1"/>
+  </g>
+
+  <!-- Droplet -->
+  <path d="M1000 280 C1000 240, 1040 220, 1040 190 C1040 220, 1080 240, 1080 280 C1080 324, 1040 350, 1040 350 C1040 350, 1000 324, 1000 280 Z" fill="rgba(241,158,56,0.85)"/>
+
+  <!-- Trainee -->
+  <circle cx="260" cy="280" r="52" fill="url(#blue)"/>
+  <rect x="205" y="330" width="150" height="260" rx="46" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <path d="M190 440 C260 380, 320 380, 390 440" fill="none" stroke="#3b6fb6" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Wrench -->
+  <g transform="translate(360,520) rotate(-18)">
+    <path d="M70 0 C40 10, 20 40, 30 70 L80 50 L60 100 L30 120 C70 145, 130 115, 120 60 C115 30, 95 10, 70 0 Z" fill="#cfd8e6"/>
+    <rect x="78" y="88" width="260" height="34" rx="17" fill="#cfd8e6"/>
+    <circle cx="310" cy="105" r="18" fill="#b9c7dd"/>
+  </g>
+</svg>
+

@@ -64,6 +64,93 @@
 
   initHomeBannerSlider();
 
+  function initHomeFacebookVideoLinks() {
+    var nodes = document.querySelectorAll("[data-fb-video-url]");
+    if (!nodes || !nodes.length) return;
+
+    var modal = document.getElementById("fb-video-modal");
+    var iframe = document.getElementById("fb-video-iframe");
+    var lastActive = null;
+    if (!modal || !iframe) return;
+
+    function youtubeIdFromUrl(url) {
+      if (!url) return "";
+      var m = String(url).match(/youtu\.be\/([A-Za-z0-9_-]{6,})/i);
+      if (m && m[1]) return m[1];
+      m = String(url).match(/[?&]v=([A-Za-z0-9_-]{6,})/i);
+      if (m && m[1]) return m[1];
+      return "";
+    }
+
+    function embedUrl(rawUrl) {
+      var url = String(rawUrl || "").trim();
+      if (!url) return "";
+
+      if (/youtu\.be|youtube\.com/i.test(url)) {
+        var id = youtubeIdFromUrl(url);
+        if (!id) return "";
+        return "https://www.youtube.com/embed/" + encodeURIComponent(id) + "?autoplay=1";
+      }
+
+      return (
+        "https://www.facebook.com/plugins/video.php?href=" +
+        encodeURIComponent(url) +
+        "&show_text=false&autoplay=1"
+      );
+    }
+
+    function openModal(url, opener) {
+      if (!url) return;
+      lastActive = opener || null;
+      modal.setAttribute("aria-hidden", "false");
+      modal.classList.add("is-open");
+      iframe.src = embedUrl(url);
+      document.body.classList.add("has-modal");
+    }
+
+    function closeModal() {
+      modal.setAttribute("aria-hidden", "true");
+      modal.classList.remove("is-open");
+      iframe.src = "";
+      document.body.classList.remove("has-modal");
+      if (lastActive && lastActive.focus) lastActive.focus();
+      lastActive = null;
+    }
+
+    for (var i = 0; i < nodes.length; i++) {
+      var el = nodes[i];
+      var url = (el.getAttribute("data-fb-video-url") || "").trim();
+      if (!url || url === "#") continue;
+
+      if (el.tagName && el.tagName.toLowerCase() === "a") {
+        el.setAttribute("href", url);
+        el.removeAttribute("target");
+        el.removeAttribute("rel");
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          var u = (this.getAttribute("data-fb-video-url") || "").trim();
+          openModal(u, this);
+        });
+      }
+    }
+
+    modal.addEventListener("click", function (e) {
+      var t = e.target;
+      if (!t) return;
+      if (t && t.getAttribute && t.getAttribute("data-fb-video-close") === "true") {
+        closeModal();
+      }
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && modal.classList.contains("is-open")) {
+        closeModal();
+      }
+    });
+  }
+
+  initHomeFacebookVideoLinks();
+
   var EVENT_ITEMS = [
     {
       variant: "orange",
@@ -71,7 +158,7 @@
       title: "Project Technical Steering Committee Meeting",
       description:
         "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "#"
+      href: "engagements.html"
     },
     {
       variant: "white",
@@ -79,7 +166,7 @@
       title: "Project Technical Committee Meeting",
       description:
         "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "#"
+      href: "engagements.html"
     },
     {
       variant: "dark",
@@ -87,7 +174,7 @@
       title: "Launching Ceremony of Scholarships",
       description:
         "Renewable energy training scholarship launching ceremony at Hayle Barise Technical School.",
-      href: "#"
+      href: "engagements.html"
     },
     {
       variant: "solid-dark",
@@ -95,7 +182,7 @@
       title: "Minister Yusuf Observation",
       description:
         "Ministry Yusuf Visiting Training areas at Hayle Barise Technical School after Launching Ceremony.",
-      href: "#"
+      href: "engagements.html"
     },
     {
       variant: "orange",
@@ -103,7 +190,7 @@
       title: "Second Steering committee Meeting",
       description:
         "Minister Ainanshe's Opening Remarks of the Second Steering committee meeting held in Mogadishu.",
-      href: "#"
+      href: "engagements.html"
     },
     {
       variant: "white",
@@ -111,7 +198,7 @@
       title: "DG YUSUF & Project Manager Xaambe",
       description:
         "DG YUSUF & Project Manager Xaambe Having Engagement with international Partners ( SIDA ).",
-      href: "#"
+      href: "engagements.html"
     }
   ];
 
@@ -155,25 +242,46 @@
 
   var PROGRAM_ITEMS = [
     {
-      image: "images/image1.png",
-      alt: "Two professionals collaborating at a desk with a laptop in a modern office",
+      image: "images/program-entrepreneurship.svg",
+      alt: "Entrepreneurship program illustration",
       title: "Entrepreneurship",
       description:
         "This course equips trainees with business development skills, enabling them to create, manage, and grow small businesses successfully."
     },
     {
-      image: "images/image2.png",
-      alt: "Trainees in safety vests and hard hats with solar equipment at a renewable energy site",
+      image: "images/program-renewable-energy.svg",
+      alt: "Renewable energy program illustration",
       title: "Renewable Energy",
       description:
         "Participants learn about solar panel installation and maintenance, promoting access to clean energy and creating job opportunities in the renewable energy sector."
     },
     {
-      image: "images/image3.jpg",
-      alt: "Digital technology concept with laptop, globe, and multimedia icons representing ICT",
+      image: "images/program-ict.svg",
+      alt: "ICT program illustration",
       title: "ICT",
       description:
         "The course provides knowledge in web and app development, digital marketing, and content creation, helping youth to build careers in technology and online business."
+    },
+    {
+      image: "images/program-basic-agriculture.svg",
+      alt: "Basic agriculture program illustration",
+      title: "Basic Agriculture",
+      description:
+        "Participants gain practical skills in basic agriculture, improving employability and supporting food security through modern, climate-smart practices."
+    },
+    {
+      image: "images/program-plumber.svg",
+      alt: "Plumber program illustration",
+      title: "Plumber",
+      description:
+        "Practical plumbing skills covering basic installation, maintenance, fittings, and troubleshooting."
+    },
+    {
+      image: "images/program-carpentry.svg",
+      alt: "Carpentry program illustration",
+      title: "Carpentry",
+      description:
+        "Carpentry basics including tool use, measuring, cutting, joining, and safe workshop practices."
     }
   ];
 
@@ -204,7 +312,9 @@
 
       var p = document.createElement("p");
       p.className = "program-card-text";
-      p.textContent = item.description;
+      if (item.description) {
+        p.textContent = item.description;
+      }
 
       var footer = document.createElement("div");
       footer.className = "program-card-footer";
@@ -217,7 +327,18 @@
       footer.appendChild(diamond);
 
       body.appendChild(h3);
-      body.appendChild(p);
+      if (item.bullets && item.bullets.length) {
+        var ul = document.createElement("ul");
+        ul.className = "program-card-list";
+        item.bullets.forEach(function (b) {
+          var li = document.createElement("li");
+          li.textContent = b;
+          ul.appendChild(li);
+        });
+        body.appendChild(ul);
+      } else {
+        body.appendChild(p);
+      }
       body.appendChild(footer);
 
       article.appendChild(figure);

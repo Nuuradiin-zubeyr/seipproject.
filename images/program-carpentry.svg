@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Carpentry illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+
+  <!-- Workbench -->
+  <rect x="140" y="610" width="920" height="90" rx="20" fill="#e7edf6"/>
+  <rect x="190" y="695" width="120" height="120" rx="18" fill="#dfe8f4"/>
+  <rect x="890" y="695" width="120" height="120" rx="18" fill="#dfe8f4"/>
+
+  <!-- Wood board -->
+  <rect x="280" y="520" width="640" height="90" rx="20" fill="#ffffff" stroke="#dbe6f4" stroke-width="8"/>
+  <path d="M320 565 h560" stroke="#f19e38" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- Trainee -->
+  <circle cx="300" cy="280" r="52" fill="url(#blue)"/>
+  <rect x="245" y="330" width="150" height="260" rx="46" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <path d="M230 450 C300 390, 360 390, 430 450" fill="none" stroke="#3b6fb6" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Saw -->
+  <g transform="translate(520,430) rotate(-10)">
+    <rect x="0" y="70" width="220" height="26" rx="13" fill="#cfd8e6"/>
+    <path d="M220 70 L520 25 L520 115 L220 96 Z" fill="#ffffff" stroke="#dbe6f4" stroke-width="8"/>
+    <path d="M250 102 L270 115 L290 102 L310 115 L330 102 L350 115 L370 102 L390 115 L410 102 L430 115 L450 102" fill="none" stroke="#4e8ac1" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Hammer icon -->
+  <g opacity="0.25" transform="translate(960,180) rotate(20)">
+    <rect x="0" y="60" width="24" height="170" rx="12" fill="#3b6fb6"/>
+    <rect x="-35" y="25" width="120" height="42" rx="12" fill="#3b6fb6"/>
+  </g>
+</svg>
+

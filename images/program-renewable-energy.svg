@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Renewable energy illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+
+  <!-- Sun -->
+  <circle cx="980" cy="190" r="56" fill="rgba(241,158,56,0.9)"/>
+  <g stroke="rgba(241,158,56,0.9)" stroke-width="10" stroke-linecap="round">
+    <path d="M980 105 v-40"/>
+    <path d="M980 315 v-40"/>
+    <path d="M895 190 h-40"/>
+    <path d="M1105 190 h-40"/>
+    <path d="M915 125 l-28 -28"/>
+    <path d="M1045 255 l-28 -28"/>
+    <path d="M1045 125 l28 -28"/>
+    <path d="M915 255 l28 -28"/>
+  </g>
+
+  <!-- Solar panels -->
+  <g transform="translate(170,320)">
+    <polygon points="0,240 620,150 700,380 80,470" fill="#dbe6f4"/>
+    <polygon points="40,250 600,170 660,365 100,445" fill="#ffffff" stroke="#cfe0f3" stroke-width="8"/>
+    <g stroke="#4e8ac1" stroke-width="6" opacity="0.9">
+      <path d="M120 248 L180 440"/>
+      <path d="M220 235 L280 427"/>
+      <path d="M320 222 L380 414"/>
+      <path d="M420 210 L480 402"/>
+      <path d="M520 198 L580 390"/>
+      <path d="M90 315 L650 235"/>
+      <path d="M110 375 L670 295"/>
+    </g>
+  </g>
+
+  <!-- Technician -->
+  <circle cx="260" cy="300" r="50" fill="url(#blue)"/>
+  <rect x="205" y="350" width="140" height="220" rx="44" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <path d="M210 420 h130" stroke="#f19e38" stroke-width="14" stroke-linecap="round"/>
+  <path d="M170 520 C240 470, 310 470, 380 520" fill="none" stroke="#3b6fb6" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Wind turbine silhouette -->
+  <g opacity="0.25" transform="translate(860,420)">
+    <rect x="55" y="60" width="10" height="260" rx="5" fill="#3b6fb6"/>
+    <circle cx="60" cy="60" r="12" fill="#3b6fb6"/>
+    <path d="M60 60 L15 35" stroke="#3b6fb6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M60 60 L95 10" stroke="#3b6fb6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M60 60 L118 78" stroke="#3b6fb6" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>
+

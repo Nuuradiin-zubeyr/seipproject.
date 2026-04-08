@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Entrepreneurship illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef6ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4e8ac1"/>
+      <stop offset="1" stop-color="#3b6fb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="900" rx="40" fill="url(#bg)"/>
+  <circle cx="190" cy="170" r="90" fill="rgba(241,158,56,0.18)"/>
+  <circle cx="1040" cy="210" r="130" fill="rgba(78,138,193,0.16)"/>
+
+  <!-- Desk -->
+  <rect x="140" y="560" width="920" height="70" rx="18" fill="#e7edf6"/>
+  <rect x="180" y="615" width="840" height="40" rx="14" fill="#dfe8f4"/>
+
+  <!-- Laptop -->
+  <rect x="520" y="430" width="260" height="160" rx="18" fill="#1a2a35"/>
+  <rect x="538" y="448" width="224" height="124" rx="12" fill="#0f1720"/>
+  <rect x="480" y="590" width="340" height="32" rx="16" fill="#cfd8e6"/>
+  <path d="M585 515 l35 -35 35 35" fill="none" stroke="url(#blue)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M715 515 l-35 -35 -35 35" fill="none" stroke="url(#blue)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- People (simple) -->
+  <circle cx="360" cy="440" r="52" fill="url(#blue)"/>
+  <rect x="310" y="495" width="140" height="170" rx="38" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <rect x="338" y="545" width="84" height="18" rx="9" fill="#f19e38"/>
+
+  <circle cx="880" cy="440" r="52" fill="url(#blue)"/>
+  <rect x="830" y="495" width="140" height="170" rx="38" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+  <rect x="858" y="545" width="84" height="18" rx="9" fill="#f19e38"/>
+
+  <!-- Background icons -->
+  <g opacity="0.9">
+    <rect x="160" y="250" width="110" height="110" rx="22" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+    <path d="M195 320 l25 -30 25 30" fill="none" stroke="#4e8ac1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M205 330 h50" stroke="#f19e38" stroke-width="10" stroke-linecap="round"/>
+
+    <rect x="965" y="540" width="110" height="110" rx="22" fill="#ffffff" stroke="#dbe6f4" stroke-width="6"/>
+    <path d="M995 625 h50" stroke="#4e8ac1" stroke-width="10" stroke-linecap="round"/>
+    <path d="M995 595 h35" stroke="#f19e38" stroke-width="10" stroke-linecap="round"/>
+    <path d="M995 565 h45" stroke="#4e8ac1" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>
+
