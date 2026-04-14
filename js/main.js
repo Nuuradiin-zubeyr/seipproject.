@@ -154,51 +154,83 @@
   var EVENT_ITEMS = [
     {
       variant: "orange",
-      image: "images/banner.jpeg",
+      images: [
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (4).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (4).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (4).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (4).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (4).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (1).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (2).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (3).jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29.jpeg",
+        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.30 (1).jpeg"
+      ],
       title: "Project Technical Steering Committee Meeting",
       description:
         "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "engagements.html"
-    },
-    {
-      variant: "white",
-      image: "images/IMG-20250413-WA0003.jpg",
-      title: "Project Technical Committee Meeting",
-      description:
-        "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "engagements.html"
-    },
-    {
-      variant: "dark",
-      image: "images/banner.jpeg",
-      title: "Launching Ceremony of Scholarships",
-      description:
-        "Renewable energy training scholarship launching ceremony at Hayle Barise Technical School.",
-      href: "engagements.html"
-    },
-    {
-      variant: "solid-dark",
-      image: "",
-      title: "Minister Yusuf Observation",
-      description:
-        "Ministry Yusuf Visiting Training areas at Hayle Barise Technical School after Launching Ceremony.",
-      href: "engagements.html"
+      href: "steering-committee-meeting.html"
     },
     {
       variant: "orange",
-      image: "images/Tvet-image-2.jpg",
-      title: "Second Steering committee Meeting",
+      images: [
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.50 (1).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.50.jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (1).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (2).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (3).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.51.jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (1).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (2).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (3).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (4).jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.52.jpeg",
+        "images/New/WhatsApp Image 2026-04-13 at 10.29.53.jpeg"
+      ],
+      title: "Project Technical Committee Meeting",
       description:
-        "Minister Ainanshe's Opening Remarks of the Second Steering committee meeting held in Mogadishu.",
-      href: "engagements.html"
-    },
-    {
-      variant: "white",
-      image: "images/Tvet-Image.jpg",
-      title: "DG YUSUF & Project Manager Xaambe",
-      description:
-        "DG YUSUF & Project Manager Xaambe Having Engagement with international Partners ( SIDA ).",
-      href: "engagements.html"
+        "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
+      href: "technical-committee-meeting.html"
     }
   ];
 
@@ -210,8 +242,14 @@
       var article = document.createElement("article");
       article.className = "event-card event-card--" + item.variant;
 
-      if (item.image && item.variant !== "solid-dark") {
-        article.style.setProperty("--event-img", 'url("' + item.image + '")');
+      var img =
+        item && item.images && item.images.length
+          ? item.images[Math.floor(Math.random() * item.images.length)]
+          : item.image;
+
+      if (img && item.variant !== "solid-dark") {
+        var encodedImg = encodeURI(String(img));
+        article.style.setProperty("--event-img", 'url("' + encodedImg + '")');
       }
 
       var inner = document.createElement("div");
