@@ -154,83 +154,134 @@
   var EVENT_ITEMS = [
     {
       variant: "orange",
+      tag: "Steering committee",
+      date: "Oct 2024",
       images: [
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.19.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20 (4).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.20.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21 (4).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.21.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.22.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23 (4).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.23.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.24.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25 (4).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.25.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.26.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.27.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28 (4).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.28.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (1).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (2).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29 (3).jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.29.jpeg",
-        "images/imgesNews/WhatsApp Image 2026-04-13 at 10.43.30 (1).jpeg"
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.17 (1).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.17.jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.18 (1).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.18 (2).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.18 (3).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.18 (4).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.18.jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.19 (1).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.19 (2).jpeg",
+        "images/Steering committee Oct 2024/WhatsApp Image 2026-04-15 at 10.04.19.jpeg"
       ],
-      title: "Project Technical Steering Committee Meeting",
+      title: "Steering committee meeting",
       description:
-        "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "steering-committee-meeting.html"
+        "Project steering committee meeting — key updates, decisions, and coordination.",
+      href: "steering-committee-oct-2024.html"
+    },
+    {
+      variant: "dark",
+      tag: "Technical committee",
+      date: "Oct 2024",
+      images: [
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.49.jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.50 (1).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.50 (2).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.50 (3).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.50.jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.51 (1).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.51 (2).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.51 (3).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.51 (4).jpeg",
+        "images/Technical committee October 2024/WhatsApp Image 2026-04-15 at 10.05.51.jpeg"
+      ],
+      title: "Technical committee meeting",
+      description:
+        "Technical committee meeting — implementation status, milestones, and next steps.",
+      href: "technical-committee-oct-2024.html"
+    },
+    {
+      variant: "white",
+      tag: "Technical committee",
+      date: "May 2025",
+      images: [
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.49 (1).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.49 (2).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.49.jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.50 (1).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.50 (2).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.50 (3).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.50 (4).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.50.jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.07.51.jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.41.jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.42 (1).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.42 (2).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.42 (3).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.42.jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.43 (1).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.43 (2).jpeg",
+        "images/Technical committee Meeting May 2025/WhatsApp Image 2026-04-15 at 10.11.43.jpeg"
+      ],
+      title: "Technical committee meeting",
+      description:
+        "Review of progress and technical actions supporting project delivery.",
+      href: "technical-committee-may-2025.html"
     },
     {
       variant: "orange",
+      tag: "Steering committee",
+      date: "Jun 2025",
       images: [
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.50 (1).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.50.jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (1).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (2).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.51 (3).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.51.jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (1).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (2).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (3).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.52 (4).jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.52.jpeg",
-        "images/New/WhatsApp Image 2026-04-13 at 10.29.53.jpeg"
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.21 (1).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.21.jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.22 (1).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.22 (2).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.22 (3).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.22 (4).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.22.jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.23 (1).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.23 (2).jpeg",
+        "images/Steering committee meeting june 2025/WhatsApp Image 2026-04-15 at 10.14.23.jpeg"
       ],
-      title: "Project Technical Committee Meeting",
+      title: "Steering committee meeting",
       description:
-        "Photo group by Molsa Officials, line Ministries representative & Private sector Partners.",
-      href: "technical-committee-meeting.html"
+        "Steering-level alignment with partners on priorities and governance.",
+      href: "steering-committee-june-2025.html"
+    },
+    {
+      variant: "dark",
+      tag: "Technical committee",
+      date: "Oct 2025",
+      images: [
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.17 (1).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.17 (2).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.17.jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.18 (1).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.18 (2).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.18 (3).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.18 (4).jpeg",
+        "images/Technical committee Oct 2025/WhatsApp Image 2026-04-15 at 10.20.18.jpeg"
+      ],
+      title: "Technical committee meeting",
+      description:
+        "Technical coordination meeting — monitoring, results, and support actions.",
+      href: "technical-committee-oct-2025.html"
+    },
+    {
+      variant: "white",
+      tag: "Steering committee",
+      date: "Nov 2025",
+      images: [
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.42 (1).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.42 (2).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.42.jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.43 (1).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.43 (2).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.43 (3).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.43.jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.44 (1).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.44 (2).jpeg",
+        "images/Steering November 2025/WhatsApp Image 2026-04-15 at 10.23.44.jpeg"
+      ],
+      title: "Steering committee meeting",
+      description:
+        "Steering committee meeting — strategic review and agreed decisions.",
+      href: "steering-november-2025.html"
     }
   ];
 
@@ -255,6 +306,23 @@
       var inner = document.createElement("div");
       inner.className = "event-card-inner";
 
+      var meta = document.createElement("div");
+      meta.className = "event-card-meta";
+
+      if (item.date) {
+        var badge = document.createElement("span");
+        badge.className = "event-card-badge";
+        badge.textContent = item.date;
+        meta.appendChild(badge);
+      }
+
+      if (item.tag) {
+        var tag = document.createElement("span");
+        tag.className = "event-card-tag";
+        tag.textContent = item.tag;
+        meta.appendChild(tag);
+      }
+
       var h3 = document.createElement("h3");
       h3.className = "event-card-title";
       h3.textContent = item.title;
@@ -266,8 +334,9 @@
       var a = document.createElement("a");
       a.className = "event-card-more";
       a.href = item.href;
-      a.textContent = "More";
+      a.textContent = "View photos";
 
+      inner.appendChild(meta);
       inner.appendChild(h3);
       inner.appendChild(p);
       inner.appendChild(a);
